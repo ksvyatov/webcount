@@ -1,0 +1,62 @@
+action: GLOB, msg: packaging
+cwd: /Users/hiber/repositories/tp/lec_09_testing/python-webcount
+cmd: /Users/hiber/miniforge3/envs/tensorflow/bin/python3.8 setup.py sdist --formats=zip --dist-dir /Users/hiber/repositories/tp/lec_09_testing/python-webcount/.tox/dist
+running sdist
+running egg_info
+writing webcount.egg-info/PKG-INFO
+writing dependency_links to webcount.egg-info/dependency_links.txt
+writing requirements to webcount.egg-info/requires.txt
+writing top-level names to webcount.egg-info/top_level.txt
+reading manifest file 'webcount.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'webcount.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating webcount-0.1
+creating webcount-0.1/test
+creating webcount-0.1/webcount
+creating webcount-0.1/webcount.egg-info
+copying files to webcount-0.1...
+copying MANIFEST.in -> webcount-0.1
+copying conftest.py -> webcount-0.1
+copying setup.py -> webcount-0.1
+copying test/__init__.py -> webcount-0.1/test
+copying test/functions.py -> webcount-0.1/test
+copying test/test_functions.py -> webcount-0.1/test
+copying webcount/__init__.py -> webcount-0.1/webcount
+copying webcount/combined.py -> webcount-0.1/webcount
+copying webcount/functions.py -> webcount-0.1/webcount
+copying webcount.egg-info/PKG-INFO -> webcount-0.1/webcount.egg-info
+copying webcount.egg-info/SOURCES.txt -> webcount-0.1/webcount.egg-info
+copying webcount.egg-info/dependency_links.txt -> webcount-0.1/webcount.egg-info
+copying webcount.egg-info/requires.txt -> webcount-0.1/webcount.egg-info
+copying webcount.egg-info/top_level.txt -> webcount-0.1/webcount.egg-info
+Writing webcount-0.1/setup.cfg
+creating /Users/hiber/repositories/tp/lec_09_testing/python-webcount/.tox/dist
+creating '/Users/hiber/repositories/tp/lec_09_testing/python-webcount/.tox/dist/webcount-0.1.zip' and adding 'webcount-0.1' to it
+adding 'webcount-0.1'
+adding 'webcount-0.1/webcount'
+adding 'webcount-0.1/test'
+adding 'webcount-0.1/webcount.egg-info'
+adding 'webcount-0.1/PKG-INFO'
+adding 'webcount-0.1/conftest.py'
+adding 'webcount-0.1/MANIFEST.in'
+adding 'webcount-0.1/setup.py'
+adding 'webcount-0.1/setup.cfg'
+adding 'webcount-0.1/webcount/functions.py'
+adding 'webcount-0.1/webcount/__init__.py'
+adding 'webcount-0.1/webcount/combined.py'
+adding 'webcount-0.1/test/functions.py'
+adding 'webcount-0.1/test/__init__.py'
+adding 'webcount-0.1/test/test_functions.py'
+adding 'webcount-0.1/webcount.egg-info/PKG-INFO'
+adding 'webcount-0.1/webcount.egg-info/SOURCES.txt'
+adding 'webcount-0.1/webcount.egg-info/requires.txt'
+adding 'webcount-0.1/webcount.egg-info/top_level.txt'
+adding 'webcount-0.1/webcount.egg-info/dependency_links.txt'
+removing 'webcount-0.1' (and everything under it)
